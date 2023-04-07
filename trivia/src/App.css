@@ -1,3 +1,7 @@
+.App {
+  justify-content: center;
+}
+
 .buttons {
   display: flex;
   justify-content: center;
@@ -15,6 +19,7 @@
 }
 
 .title {
-  display: block;
+  display: flex;
   font-size: large;
+  justify-content: center;
 }
