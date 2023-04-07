@@ -4,7 +4,7 @@ import { Typography } from '@material-ui/core';
 
 function TitleBar() {
   return (
-    <Typography variant="h1">Trivia Game</Typography>
+    <Typography variant="h1" style={{color: 'white'}}>Trivia Game</Typography>
   );
 }
 
