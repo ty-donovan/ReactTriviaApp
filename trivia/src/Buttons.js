@@ -3,13 +3,13 @@ import Button from '@mui/material/Button';
 import { useState } from 'react';
 import './App.css'
 
-export default function MyButton() {
-    const [correct, setCorrect] = useState(false);
+export default function MyButton(props) {
 
+    
 
     return (
         <div class="button">
-            <Button variant="contained">Guess</Button>
+            <Button variant="contained">{props.text}</Button>
         </div>
     );
 }

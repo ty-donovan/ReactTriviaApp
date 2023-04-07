@@ -1,11 +1,12 @@
 .App {
+  display: grid;
   justify-content: center;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width:50%;
   height: auto;
   flex-wrap: wrap;
 }
@@ -19,7 +20,13 @@
 }
 
 .title {
+  width: 100%;
   display: flex;
   font-size: large;
+  justify-content: center;
+}
+
+.button-wrapper {
+  display: flex;
   justify-content: center;
 }
